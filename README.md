@@ -7,7 +7,7 @@ https://machinelearningmastery.com/machine-learning-in-python-step-by-step/
 1. Install [virtualenvwrapper](https://virtualenvwrapper.readthedocs.io/en/latest/install.html):
 
     ```bash
-    pip install virtualenvwrapper
+    pip3 install virtualenvwrapper
     ```
 
 1. Create virtual environment in `~/.virtualenvs`:
@@ -24,8 +24,14 @@ https://machinelearningmastery.com/machine-learning-in-python-step-by-step/
 
 ## Run
 
-Toggle the outputs by commenting/un-commenting the printouts at the bottom of `iris.py`, then run:
+1. Activate virtual environment:
 
-```python
-python iris.py
-```
+    ```bash
+    workon iris-classification
+    ```
+
+1. Toggle the outputs by commenting/un-commenting the printouts at the bottom of `iris.py`, then run:
+
+    ```python
+    python iris.py
+    ```
